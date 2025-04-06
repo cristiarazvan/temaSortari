@@ -40,6 +40,7 @@ int main() {
         heapSort(a, n);
         for (int i = 1; i <= n; i++) fout << a[i] << " ";
         fout << "\n";
+        a.clear();
     }
 
     return 0;

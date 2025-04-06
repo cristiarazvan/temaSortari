@@ -31,6 +31,8 @@ int main() {
         radixSort16(a, n, mx);
         for (int i = 1; i <= n; i++) fout << i << " ";
         fout << '\n';
+        a.clear();
+        b.clear();
     }
     return 0;
 }
